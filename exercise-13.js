@@ -8,7 +8,7 @@ function xo(str) {
     countx = 0
     counto = 0
     var huruf = str.length
-    console.log(huruf)
+        //console.log(huruf)
 
     for (var i = 0; i < huruf; i++) {
         if (str[i] === 'x') {
@@ -17,10 +17,11 @@ function xo(str) {
             counto += 1
         }
     }
-    console.log(countx)
-    console.log(counto)
+    //console.log(countx)
+    //console.log(counto)
     return (countx == counto)
 }
+console.log(xo(kata))
 
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false
