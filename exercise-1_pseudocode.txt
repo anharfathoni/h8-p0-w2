@@ -1,0 +1,54 @@
+Nama: Anhar Amir Fathoni
+Tugas Pseudocode
+
+--------------------------------------------------------------------
+
+1. Newton Second Law
+
+STORE 'massa' with 600
+STORE 'acceleration' with 2
+STORE 'force' without value
+
+CALCULATE 'massa' times 'acceleration'
+SET 'force' value with calculation result
+DISPLAY 'force'
+
+--------------------------------------------------------------------
+
+2. Tahun Kabisat
+
+STORE 'tahun' with any value
+
+IF 'tahun modulo 4 = 0' AND 'tahun modulo 100 != 0'
+    PRINT kabisat
+ELSE IF 'tahun modulo modulo 100 = 0' AND 'tahun modulo 400 = 0'
+    PRINT kabisat
+ELSE 
+    PRINT bukan kabisat
+
+--------------------------------------------------------------------
+
+3. Laundry Day
+
+STORE 'count' with 0
+WHILE 'count' < 20
+    ADD 'count' by 1
+
+DO Nyalakan mesin
+
+--------------------------------------------------------------------
+
+4. PERIKSA KUKU
+
+STORE 'kuku' without value
+STORE 'count' with 0
+
+WHILE 'count' < 40
+    READ kuku
+    IF 'kuku' panjang //true
+        DO hukum
+    IF 'kuku' pendek //false
+        DO puji
+    ADD 'count' by 1
+
+--------------------------------------------------------------------
