@@ -22,8 +22,8 @@ function konversiMenit(menit) {
     return (hour + ":" + minute)
 }
 
-var a = prompt("masukkan menit")
-console.log(konversiMenit(a))
+// var a = prompt("masukkan menit")
+// console.log(konversiMenit(a))
 console.log(konversiMenit(63)); // 1:03
 console.log(konversiMenit(124)); // 2:04
 console.log(konversiMenit(53)); // 0:53

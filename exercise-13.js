@@ -1,9 +1,7 @@
 //EXERCISE 13
 //X dan O
 
-var kata = prompt("masukkan kata")
-xo(kata)
-
+//var kata = prompt("masukkan kata")
 function xo(str) {
     countx = 0
     counto = 0
@@ -21,7 +19,7 @@ function xo(str) {
     //console.log(counto)
     return (countx == counto)
 }
-console.log(xo(kata))
+//console.log(xo(kata))
 
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false
